@@ -5,8 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "build": "npm run build-client",
-    "build-client": "npm install && npm run build",
+    "build": "npm install && npm run start",
     "start": "nodemon server.js"
   },
   "author": "",
