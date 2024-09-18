@@ -34,5 +34,5 @@ const applicationSchema = mongoose.Schema({
 });
 
 const ApplicationModel = mongoose.model('Application', applicationSchema);
-
+  
 export default ApplicationModel;

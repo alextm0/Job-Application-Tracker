@@ -1,7 +1,8 @@
 // controllers/application/applicationController.js
 
+import ApplicationModel from '../../models/applications/ApplicationModel.js';
+
 import asyncHandler from 'express-async-handler';
-import ApplicationModel from '../../models/applications/ApplicationModel';
 
 // @desc    Create a new job application
 // @route   POST /application/create
