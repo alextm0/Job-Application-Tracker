@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 const ApplicationsContext = createContext();
 
 // Define the server URL
-const serverUrl = "http://localhost:8000/api/v1";
+const serverUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 export const ApplicationsProvider = ({ children }) => {
   const userId = useUserContext().user._id;

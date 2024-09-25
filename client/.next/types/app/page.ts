@@ -1,4 +1,4 @@
-// File: C:\Users\alext\Desktop\ApplicationTracker\client\app\page.tsx
+// File: C:\Users\alext\Desktop\Job-Application-Tracker\client\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
